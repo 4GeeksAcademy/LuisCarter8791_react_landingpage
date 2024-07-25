@@ -11,6 +11,10 @@
 
 */
 
-.card {
-    display: flex;
+.btn {
+    width: 50%;
+}
+
+.card-body {
+    align-items: center;
 }

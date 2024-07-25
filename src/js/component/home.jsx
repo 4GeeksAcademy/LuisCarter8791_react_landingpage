@@ -7,7 +7,7 @@ import { Card } from "./card";
 //create your first component
 const Home = () => {
 	return (
-		<div className="d-flex m-3">
+		<div className="d-flex justify-content-between">
 			<Card/> 	
 			<Card/>
 			<Card/>
