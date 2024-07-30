@@ -2,9 +2,9 @@ import React from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import { Navbar } from "./navbar";
 import { Card } from "./card";
-import {Navbar} from "./navbar"
-import {Footer} from "./footer"
+import { Footer } from "./footer";
 import { Jumbotron } from "./jumbotron";
 
 
@@ -12,16 +12,25 @@ import { Jumbotron } from "./jumbotron";
 const Home = () => {
 	return (
 		<div>
-			<Navbar/>
-			<Jumbotron/>
-			<div className="d-flex justify-content-between">
-
-				<Card/> 	
-				<Card/>
-				<Card/>
-				<Card/>
+			<Navbar />
+			<div className="d-flex justify-content-center align-items-center flex-column ">
+				<Jumbotron />
+				<div className="d-flex flex-row">
+					<div className="mx-2">
+						<Card />
+					</div>
+					<div className="mx-2">
+						<Card />
+					</div>
+					<div className="mx-2">
+						<Card />
+					</div>
+					<div className="mx-2">
+						<Card />
+					</div>
+				</div>
+				<Footer />
 			</div>
-			<Footer/>
 		</div>
 	);
 };
