@@ -16,16 +16,16 @@ const Home = () => {
 			<div className="d-flex justify-content-center align-items-center flex-column ">
 				<Jumbotron />
 				<div className="d-flex flex-row">
-					<div className="mx-2">
+					<div className="">
 						<Card />
 					</div>
-					<div className="mx-2">
+					<div className="">
 						<Card />
 					</div>
-					<div className="mx-2">
+					<div className="">
 						<Card />
 					</div>
-					<div className="mx-2">
+					<div className="">
 						<Card />
 					</div>
 				</div>
